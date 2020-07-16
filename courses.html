@@ -1,122 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Courses</title>
-</head>
-<style>
-    * {
-        color: black;
+  </head>
+  <style>
+      * {
         text-align: center;
-    }
-
-    nav {
+        color: brown;
+        font-family: sans-serif;
+      }
+      nav {
         background-color: deepskyblue;
         padding: 15px;
         text-align: center;
-        font-family: sans-serif;
-    }
-
-    nav a {
+        text-decoration: none;
+      }
+      nav a {
         padding: 15px;
         text-transform: uppercase;
         text-decoration: none;
-        text-align: left;
-    }
-
-    body {
+      }
+      nav a:hover {
+        background-color: yellow;
+        color: rgb(98, 41, 76);
+      }
+      body {
         margin: 0px;
+      }
+      img {
+        margin-top: 100px;
+      }
+      #link{
+        color: black;
+      }
+    footer{
+      background-color: dimgrey;
+      padding: 15px;
     }
-
-    nav a:hover {
-        color: #000000;
-        background-color: papayawhip;
-    }
-
-    /* h1 {} */
-    * {
-        text-align: center;
-    }
-
-    header {
-        padding-bottom: 15px;
-        background-color: lightslategray;
-    }
-
-    p {
-        margin: 0px;
-    }
-
-    main {
-        background-color: dimgray;
-        padding: 10px;
-    }
-
-    footer {
-        background-color: darkgray;
-        padding: 15px;
-    }
-
-    footer a {
-        color: blue;
-    }
-
-    section a {
-        color: blue;
-    }
-
-    @media (max-width: 1024px) {
-        #flex-container {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            width: 150px;
-            height: 100%;
-            padding: 5px;
-        }
-
-        nav a {
-            padding: 40px;
-        }
-
-        h1 {
-            text-align: center;
-        }
-    }
-</style>
-
-<body>
+    </style>
+  <body>
     <header>
-        <nav id="flex-container">
-            <a href="index.html">Home</a>
-            <a href="coding.html">Coding</a>
-            <a href="flex.html">Flex 1</a>
-            <a href="flex2.html">Flex 2</a>
-            <a href="https://forms.gle/FyiR956uzfsyDrHbA" target="_blank">ENROLL</a>
-        </nav>
-        <h1> Our Mission</h1>
-    </header>
+      <nav>
+        <a href="flex.html">FlexA</a>
+        <a href="flex2.html">Flex B</a>
+        <a href="coding.html">Coding</a>
+        <a href="https://forms.gle/FyiR956uzfsyDrHbA" target="_blank">ENROLL</a>
+      </nav>
+      <img src="https://i.pinimg.com/originals/69/96/5c/69965c2849ec9b7148a5547ce6714735.jpg"
+        alt=""
+        width="476px"
+      />
+      <img
+        src="https://media0.giphy.com/media/xULW8gAknl9aHIyEgM/giphy.gif"
+        alt=""
+        width="476px"
+      />
+      <img
+        src="https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Fforbestechcouncil%2Ffiles%2F2019%2F01%2Fcanva-photo-editor-8-7.jpg"
+        alt=""
+        width="476px"
+      />
+      </header>
     <main>
         <section>
-            <p> Info: Here at Camp Capital, we have music classes
-                that improve the voices of students.</p>
-            <img src="https://images.pexels.com/photos/236149/pexels-photo-236149.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="Girl holding microphone" width="800px">
-        </section>
+      <p>Here at Camp Capital, we have music classes
+        that improve the voices of students.</p>
+          </section>
         <section>
-            <p> Coding at Camp Capital is also vital and will transform your child into a full time website designer
-            </p>
-            <p> Kids will be taught the way that things are taught in the US. If you are from Canada email us
-                and we will teach your child Canadian history and such.</p>
-            <p>At Camp Capital we belive that education is vital and that all children deserve a proper one.</p>
-            <p> Please <a href="https://forms.gle/FyiR956uzfsyDrHbA" target="_blank">click here</a> to enroll</p>
-            <p>All camps start on July 20th,2020</p>
-        </section>
-    </main>
-    <footer>
-        <p> <a href="https://forms.gle/FyiR956uzfsyDrHbA">Click here</a> to enroll. All camps are free!!</p>
-    </footer>
-</body>
-
+          <p> Coding at Camp Capital is also vital and will transform your child into a full time website designer
+          </p>
+          <p> Kids will be taught the way that things are taught in the US. If you are from Canada or Mexico, ask your child to</p>
+          <p>mention that in class, and we will accordingly teach Canadian or Mexican history.</p>
+          </main>
+      <footer>
+          <p><a href="https://forms.gle/FyiR956uzfsyDrHbA" target="_blank" id="link">Click here</a> to enroll</p>
+          <p>All camps start on July 20th, 2020</p>
+      </footer>
+  </body>
 </html>
