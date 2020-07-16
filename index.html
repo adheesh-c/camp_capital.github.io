@@ -1,5 +1,172 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Camp Capital</title>
+  </head>
+  <style>
+    body {
+      margin: 0px;
+    }
+    header {
+      background-color: lightslategray;
+      padding: 15px;
+      padding-top: 0px;
+      padding-right: 0px;
+      padding-left: 0px;
+      text-align: center;
+    }
+    footer {
+      text-align: center;
+    }
+    main {
+      background-color: dimgray;
+    }
+
+    ol {
+      margin: 0px;
+    }
+
+    li a {
+      color: black;
+    }
+
+    section {
+      padding: 15px;
+    }
+
+    .photogrid {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    img {
+      width: 500px;
+      object-fit: cover;
+      box-shadow: 10px;
+    }
+
+    figcaption {
+      text-align: center;
+      border: purple double 10px;
+      background-color: springgreen;
+      width: 481px;
+    }
+
+    header h1,
+    h2 {
+      text-align: center;
+    }
+
+    .photogrid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 30px;
+    }
+
+    footer {
+      background-color: darkgray;
+      margin: 0px;
+    }
+
+    p {
+      margin: 0px;
+      padding: 15px;
+    }
+
+    nav {
+      padding: 15px;
+      background-color: grey;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: honeydew;
+      padding: 15px;
+      font-family: sans-serif;
+    }
+
+    nav a:hover {
+      background-color: papayawhip;
+      color: #000000;
+    }
+
+    @media (max-width: 1184px) {
+      .photogrid {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 30px;
+      }
+    }
+
+    @media (max-width: 412px) {
+      img {
+        width: 340px;
+      }
+
+      figcaption {
+        width: 320px;
+      }
+    }
+  </style>
+
+  <body>
+    <header>
+      <nav>
+        <a href="courses.html">COURSES</a>
+        <a href="flex.html"></a>
+        <a href="https://forms.gle/FyiR956uzfsyDrHbA" target="_blank">ENROLL</a>
+      </nav>
+      <h1>Camp Capital</h1>
+      <h2>Now Enrolling!</h2>
+      <h2>All Camps Are Free!</h2>
+      <h3>Camps Will Begin The Week Of 7-20-2020</h3>
+    </header>
+    <main>
+      <section id="timings">
+        <ol>
+          <li>4-5 PM Mon-Wed (CENTRAL TIME)</li>
+          <li>4-5 PM Fri-Sun (CENTRAL TIME)</li>
+          <li>4-5 PM Sat-Mon (CENTRAL TIME)</li>
+          <li><a href="sorry.html" target="_blank">None Of The Above</a></li>
+        </ol>
+      </section>
+      <section id="photogrid">
+        <div class="photogrid">
+          <figure>
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSWCk7HurAzrEObht_Z7lRotJhmEwE4nOnzTQ&usqp=CAU"
+              alt="Public Speaking"
+              width="300px"
+            />
+            <figcaption>Public Speaking</figcaption>
+          </figure>
+          <figure>
+            <img
+              src="https://lh3.googleusercontent.com/-W4XNYq5daHU/Xwn4Dxr4kXI/AAAAAAAACxM/v5SosSP3M0oRY_7fW0_uCXd6olkUZpHgACK8BGAsYHg/s0/USA.png"
+              alt=""
+            />
+            <figcaption>50 States</figcaption>
+          </figure>
+          <figure id="presidents">
+            <img
+              src="https://lh3.googleusercontent.com/-OvQJWsiuEk8/Xwn4Ru5ZxsI/AAAAAAAACxY/Ls6ayiXOTtcF2Ef5WKplz6MHx30Sn_R_ACK8BGAsYHg/s0/Georgie.png"
+              alt="They will learn about the 45 presidents"
+            />
+            <figcaption>45 Presidents</figcaption>
+          </figure>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>© Copyright 2020</p>
+    </footer>
+  </body>
+</html>
+
+/* <!DOCTYPE html>
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -157,4 +324,4 @@
     </footer>
 </body>
 
-</html>
+</html>*/
